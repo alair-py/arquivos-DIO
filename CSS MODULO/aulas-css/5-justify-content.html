@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Content</title>
+
+    <style>
+        .container {
+            display: flex;
+            border: 2px solid black;
+            margin: 0;
+            max-width: 400px;
+            margin-bottom: 10px;
+        }
+
+        .item {
+            background: darkmagenta;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .flex-center {
+            justify-content: center;
+        }
+
+        .flex-space-between {
+            justify-content: space-between;
+        }
+
+        .flex-space-around {
+            justify-content: space-around;
+        }
+
+        .column {
+            flex-direction: column;
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ROW</h1>
+    <h2>Flex Start</h2>
+    <div class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </div>
+
+    <h2>Flex End</h2>
+    <div class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </div>
+
+    <h2>Flex Center</h2>
+    <div class="container flex-center">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item 1</div>
+        <div class="item">Outro item 2</div>
+        <div class="item">Outro item 3</div>
+    </div>
+
+    <h2>Flex Space Between</h2>
+    <div class="container flex-space-between">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item 1</div>
+        <div class="item">Outro item 2</div>
+        <div class="item">Outro item 3</div>
+    </div>
+
+    <h2>Flex Space Around</h2>
+    <div class="container flex-space-around">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item 1</div>
+        <div class="item">Outro item 2</div>
+        <div class="item">Outro item 3</div>
+    </div>
+
+
+    <hr>
+
+    <h1>COLUMN</h1>
+
+    <h2>Flex Start</h2>
+    <div class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </div>
+
+    <h2>Flex End</h2>
+    <div class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </div>
+
+    <h2>Flex Center</h2>
+    <div class="container flex-center column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item 1</div>
+        <div class="item">Outro item 2</div>
+        <div class="item">Outro item 3</div>
+    </div>
+
+    <h2>Flex Space Between</h2>
+    <div class="container flex-space-between column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item 1</div>
+        <div class="item">Outro item 2</div>
+        <div class="item">Outro item 3</div>
+    </div>
+
+    <h2>Flex Space Around</h2>
+    <div class="container flex-space-around column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item 1</div>
+        <div class="item">Outro item 2</div>
+        <div class="item">Outro item 3</div>
+    </div>
+    
+</body>
+</html>

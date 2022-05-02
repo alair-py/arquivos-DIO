@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Self</title>
+
+    <style>
+        .flex-container {
+            margin: 10px;
+            border: 3px solid black;
+            display: flex;
+            max-width: 350px;
+        }
+
+        .item {
+            background-color: aqua;
+            color: blueviolet;
+            margin: 5px;
+        }
+
+        .center {
+            align-self: center;
+        }
+
+        .start {
+            align-self: flex-start;
+        }
+
+        .end {
+            align-self: flex-end;
+        }
+        
+        .stretch {
+            align-self: stretch;
+        }
+        
+        .column {
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h2>ROW</h2>
+    <div class="div flex-container">
+        <div class="item center">ABCDE</div>
+        <div class="item start">12321567547</div>
+        <div class="item stretch">Lorem Ipsum bla bla etc teste de texto</div>
+        <div class="item end">Outro item sem imaginaçãdsadsadsadsadsadsadsa</div>
+    </div>
+
+    <hr>
+
+    <h2>COLUMN</h2>
+    <div class="div flex-container column">
+        <div class="item center">ABCDE</div>
+        <div class="item start">12321567547</div>
+        <div class="item stretch">Lorem Ipsum bla bla etc teste de texto</div>
+        <div class="item end">Outro item sem imaginaçãdsadadsa</div>
+    </div>
+
+</body>
+</html>

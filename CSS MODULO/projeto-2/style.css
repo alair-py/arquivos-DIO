@@ -1,0 +1,197 @@
+/*ATRIBUTOS GERAIS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* BOX EXTERNO */
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+
+
+/* IMAGEM DA ESQUERDA */
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    height: 50rem;
+}
+
+
+
+/* BOX DA DIREITA */
+.instagram-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.instagram-login .forget img {
+    width: 20px;
+    height: 20px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+    margin: 16px;
+}
+
+.btn-login {
+    background-color: #3355ff;
+    color: white;
+    font-weight: 700;
+    width: 70%;
+    height: 2.2rem;
+    border-radius: 4px;
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.group input {
+    background-color: rgb(243, 243, 243);
+    width: 70%;
+    height: 2.5rem;
+    border-radius: 4px;
+    margin: 4px 0;
+    padding: 2px 8px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.or {
+    margin: 10px 5px;
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+    display: flex;
+}
+
+.or::before {
+    content: "";
+    height: 1px;
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    align-items: center;
+    margin: 4px 10px;
+}
+
+.or::after {
+    content: "";
+    height: 1px;
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    align-items: center;
+    margin: 4px 10px;
+}
+
+.forget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.forget a {
+    color: #4267B2;
+    margin-top: 22px;
+}
+
+
+.forget span {
+    font-weight: 600;
+    color: #4267B2;
+}
+
+
+
+/* GROUP 2 */
+.group:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+
+}
+
+.group:nth-child(2) a {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 8px;
+    color: #4267B2;
+}
+
+
+/* PARTE DE APPS */
+.text-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.apps-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-app img {
+    width: 150px;
+    margin: 0 4px;
+}
+
+
+/*FOOTER*/
+footer .foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgb(180, 180, 180);
+    margin: 8px;
+}

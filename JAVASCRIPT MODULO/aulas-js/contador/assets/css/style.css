@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+
+.counter {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    background-color: darkorchid;
+    border: none;
+}
+
+
+.buttons span {
+    margin: 0 25px;
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.counter p {
+    font-size: 22px;
+}
