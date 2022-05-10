@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, sans-serif;
+}
+
+
+#container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/*LIGHT*/
+#btn {
+    margin: 8px;
+    width: 120px;
+    line-height: 32px;
+    border-radius: 6px;
+    font-weight: 700;
+    border: 2px solid cyan;
+}
+
+
+#btn:hover {
+    margin: 8px;
+    font-size: 14px;
+    border: 2px solid magenta;
+}
+
+
+/*DARK*/
+.dark {
+    background-color: black;
+    color: azure;
+}
+.darkBtn {
+    background-color: azure;
+    color: black;
+}
